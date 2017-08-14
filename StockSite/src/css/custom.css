@@ -1,0 +1,82 @@
+/* Custom Website CSS
+ * (aside from Boilerplate)
+ *
+ * Color Scheme:
+    Dark Grey:           rgb(82, 85, 100)
+    Lighter Grey:        rgb(116, 130, 143)
+    Light Blue:          rgb(150, 192, 206)
+    Brownish Grey:       rgb(190, 185, 181)
+    Brownish Red:        rgb(194, 91, 86)
+    Off White:           rgb(254, 246, 235)
+
+    Font: Palatino
+
+ **/
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    background-color:  rgb(82, 85, 100);
+    font-family: "Palatino Linotype", Georgia, Serif;
+
+}
+
+#header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.headerText{
+    margin-left: 50%;
+    color: rgb(254, 246, 235);
+    letter-spacing: 2px;
+}
+
+.frame{
+    flex-flow: row;
+    display: grid;
+    height: 100%;
+    width: 98%;
+}
+
+#frame-container{
+    margin-top: 100px;
+    position: absolute;
+    overflow: scroll;
+    background-color: rgb(194, 91, 86);
+    width: -webkit-fill-available;
+    margin-bottom: 50px;
+}
+
+.sub-frame{
+    margin: 8px;
+    background-color: rgb(190, 185, 181);
+    border-radius: 6px;
+    box-shadow: rgb(254, 246, 235) 5px 5px;
+    width: 97%;
+}
+
+#footer{
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+p{
+    padding: 5px;
+    color: rgb(254, 246, 235);
+}
+
+
+
+
+
