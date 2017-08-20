@@ -63,6 +63,7 @@ body{
     width: 97%;
 }
 
+
 #footer{
     height: 50px;
     position: fixed;
@@ -74,6 +75,13 @@ body{
 p{
     padding: 5px;
     color: rgb(254, 246, 235);
+}
+
+
+.stock-display{
+    height: 50px;
+    width: 50px;
+    background-color: white;
 }
 
 
