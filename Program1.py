@@ -17,8 +17,4 @@ print matplotlib
 
 print (clf.predict(toPredict)); 
 
-#0 = smooth / apple
-#1 = bumpy / orange
-# look at file IO options
-
 
